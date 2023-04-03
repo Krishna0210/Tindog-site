@@ -1,0 +1,187 @@
+body{
+    font-family: 'Ruda', sans-serif;
+}
+.container-fluid{
+    padding: 0 15%;
+   padding-bottom: 0;
+}
+/* cta section */
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15% 6%;
+    text-align: center;
+}
+.cta-text{
+    font-size: 3.5rem;
+    
+    line-height: 1.5;   
+}
+/* cta section */
+
+/* download buttons */
+
+.Download-btn{
+    margin: 5% 3% 5% 0;
+}
+.Download-btn-cta{
+    margin: 5% 3% 5% 0;
+}
+
+/* download buttons */
+
+/* features section */
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+/* features section */
+
+/* footer section */
+#footer{
+    padding: 6% 15%;
+    text-align: center;
+}
+/* footer section */
+/* h1,h2,h3,h4,h5 */
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font: size 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.text-body-secondary{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+}
+/* h1,h2,h3,h4,h5 */
+
+.icon{
+    margin-bottom: 1.25rem;
+}
+/* navbar */
+
+.navbar{
+    padding-bottom: 5%;
+    
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link{
+    
+}
+/* navbar */
+
+.phone-img{
+    max-width: 60%;
+    transform: rotate(25deg);
+    left: 20%;
+    
+    position: relative;
+    
+}
+
+/* press section */
+
+#press{
+    background-color: #f0667b ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+    margin: auto 20px ;
+}
+/* press section */
+/* price */
+.prising-list{
+    padding: 50px;
+    padding-bottom: 100px;
+}
+.price-headh2{
+    text-align: center;
+    padding-top: 80px;
+}
+.price-headp{
+    text-align: center;
+    
+}
+/* price */
+.sociaal-icon{
+    margin: 20px 10px;
+}
+/* Testimonials section */
+#carouselExample{
+    
+    text-align: center;
+    background-color: #f0667b;
+    color: white;
+}
+
+.testimonial-img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+
+@media(max-width:1028px)
+{
+    #title{
+        text-align: center;
+    }
+    .phone-img{
+        position: static;
+        transform: rotate(0deg);
+        padding-top: 100px;
+    }
+}
+/* Testimonials section */
+a{
+    color: #ff4c68;
+}
+a:hover{
+   color: #443838;
+}
